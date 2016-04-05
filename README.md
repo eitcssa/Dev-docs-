@@ -10,3 +10,5 @@ root权限: azxohguyc!8
 1. 安装MediaWiki https://help.ubuntu.com/community/MediaWiki
 2. 将域名 wiki.eitcssa.com挂在DNS上
 
+
+MySQL root password:  ubuntu

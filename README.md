@@ -10,7 +10,7 @@ MySQL root password: ubuntu
 
 
 ## TODO list 
-- [] 安装MediaWiki https://help.ubuntu.com/community/MediaWiki
-- [] 将域名 wiki.eitcssa.com挂在DNS上
+- [ ] 安装MediaWiki https://help.ubuntu.com/community/MediaWiki
+- [ ] 将域名 wiki.eitcssa.com挂在DNS上
 
 

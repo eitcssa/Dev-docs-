@@ -8,9 +8,12 @@ ubuntu密码:ubuntu
 root权限: azxohguyc!8
 MySQL root password: ubuntu
 
+### MediaWiki 管理员账户
+username: eitcssa
+PW: eitcssa16
 
 ### TODO list 
-- [ ] 安装MediaWiki https://help.ubuntu.com/community/MediaWiki
+- [x] 安装MediaWiki https://help.ubuntu.com/community/MediaWiki
 - [ ] 将域名 wiki.eitcssa.com挂在DNS上
 
 

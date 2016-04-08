@@ -3,6 +3,7 @@
 
 ### 远程登录服务器：
 ssh ubuntu@107.191.52.183 -p 52222
+or ssh ubuntu@eitcssa.eu -p 52222
 
 ubuntu密码:ubuntu  
 root权限: azxohguyc!8  

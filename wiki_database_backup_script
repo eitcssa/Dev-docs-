@@ -1,0 +1,27 @@
+#!/bin/bash
+
+timestamp=`date "+%Y-%m-%d"`
+sql_gz_file="wikidb_backup-${timestamp}.sql.gz"
+xml_gz_file="wikidb_backup-${timestamp}.xml.gz"
+
+hostname="localhost"
+userid="root"
+dbname="eitcssa_wiki"
+charset="utf8"
+
+# If to backup in xml way, comment out the following line and uncomment the next command.
+mysqldump -h $hostname -u $userid -p --default-character-set=$charset $dbname | gzip > ~/$sql_gz_file
+
+# mysqldump -h $hostname -u $userid -p --xml --default-character-set=$charset $dbname | gzip > ~/$sql_gz_file
+
+
+# help info
+#
+# Substituting hostname, userid, whatever, and dbname as appropriate. 
+# All four may be found in your LocalSettings.php (LSP) file. 
+# hostname may be found under $wgDBserver; by default it is localhost. 
+# userid may be found under $wgDBuser.
+# whatever may be found under $wgDBTableOptions, where it is listed after DEFAULT CHARSET=. If whatever is not specified mysqldump will likely use the default of utf8, or if using an older version of MySQL, latin1. 
+# While dbname may be found under $wgDBname. 
+# After running this line from the command line, mysqldump will prompt for the server password (which may be found under Manual:$wgDBpassword in LSP), because the "-p" option. 
+# Replace "-p" with "--password=pw" if you want to write down the password explicitly.

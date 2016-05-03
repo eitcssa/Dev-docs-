@@ -26,6 +26,6 @@ sftp GUI软件: FileZilla
 
 ### MediaWiki
 - extensions: 1. ImageMap (https://www.mediawiki.org/wiki/Extension:ImageMap#Composer)
-              2. 富文本编辑器()
+              2. 富文本编辑器 ()
 - version: 1.19 (eitcssa.eu/wiki/index.php?title=Special:Version)
 

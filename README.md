@@ -24,4 +24,8 @@ sftp GUI软件: FileZilla
   - [ ] 确定二级域名及其他URL
   - [x] 将URL `http://107.191.52.183/mediawiki/` 中IP改为域名eitcssa.eu
 
+### MediaWiki
+- extensions: 1. ImageMap (https://www.mediawiki.org/wiki/Extension:ImageMap#Composer)
+              2. 富文本编辑器()
+- version: 1.19 (eitcssa.eu/wiki/index.php?title=Special:Version)
 
